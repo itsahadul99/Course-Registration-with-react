@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <main className="container mx-auto flex justify-center gap-10">
+      <main className="container mx-auto flex flex-col-reverse lg:flex-row justify-center gap-10">
          <Courses
          handleAsideTitle = {handleAsideTitle}
          ></Courses>

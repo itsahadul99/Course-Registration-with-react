@@ -4,7 +4,7 @@ const Card = ({ card, handleAsideTitle }) => {
     // console.log(card);
     const { name, description, photo, price, credit } = card;
     return (
-        <div className="card w-80 h-[450px] bg-base-100 shadow-xl">
+        <div className="card w-full lg:w-80 h-[450px] bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
                 <img src={photo} alt={name} className="rounded-xl" />
             </figure>
